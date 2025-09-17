@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AdminAreasUpdateRequestDTO {
+public class AdminAreaUpdateRequestDTO {
 	
 	@NotBlank
 	private String nameKh;

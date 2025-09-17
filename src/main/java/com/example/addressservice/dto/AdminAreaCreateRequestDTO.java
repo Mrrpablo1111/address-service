@@ -14,13 +14,13 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AdminAreasCreateRequestDTO {
+public class AdminAreaCreateRequestDTO {
 	
 	@NotBlank
 	@Pattern(regexp = "^[0-9]{2}(?:[0-9]{2}){0,3}$", message = "code must look like 12 or 12-03-07-02")
 	private String code;
 	@NotNull
-	private AdminLevel adminLevel;	
+	private AdminLevel level;	
 	private String parentCode;  
 	@NotBlank
 	private String nameKh;
