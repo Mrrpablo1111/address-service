@@ -24,7 +24,7 @@ public class AdminArea {
 	@Id
 	private String code;
 	
-	private AdminLevel adminLevel;
+	private AdminLevel level;
 	
 	private String parentCode;  
 	private String nameKh;
